@@ -15,29 +15,17 @@
 </head>
 <body>
 	<div class="container">
-		<div class="quiz-header">
+		<h1>Simple Quiz</h1>
+		<div class="quiz">
 			<h2 id="question">Question Text</h2>
-			<ul>
-				<li>
-					<input type="radio" name="answer" id="a" class="answer">
-					<label for="a" id="a-text">Answer</label>
-				</li>
-				<li>
-					<input type="radio" name="answer" id="b" class="answer">
-					<label for="b" id="b-text">Answer</label>
-				</li>
-				<li>
-					<input type="radio" name="answer" id="c" class="answer">
-					<label for="c" id="c-text">Answer</label>
-				</li>
-				<li>
-					<input type="radio" name="answer" id="d" class="answer">
-					<label for="d" id="d-text">Answer</label>
-				</li>
-			</ul>
+			<div class="btn-group" id="answer-btns">
+				<button class="btn">Answer 1</button>
+				<button class="btn">Answer 2</button>
+				<button class="btn">Answer 3</button>
+				<button class="btn">Answer 4</button>
+			</div>
+			<button id="next-btn">Next</button>
 		</div>
-		
-		<button id="submit">Submit</button>
 	</div>
 
 	<script type="text/javascript"  defer src="script.js"></script>
