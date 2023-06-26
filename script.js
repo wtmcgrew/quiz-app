@@ -7,7 +7,7 @@ const questions = [
 		{ text: "Austin", correct: true},
 		{ text: "Houston", correct: false},
 		{ text: "San Antonio", correct: false},
-		]
+	]
 },
 {
 	question: "Which person is NOT a former President?",
@@ -16,7 +16,7 @@ const questions = [
 		{ text: "Donald Trump", correct: false},
 		{ text: "Hillary Clinton", correct: true},
 		{ text: "Gerald Ford", correct: false},
-		]
+	]
 },
 {
 	question: "How many weeks are in a year?",
@@ -25,7 +25,7 @@ const questions = [
 		{ text: 60, correct: false},
 		{ text: 48, correct: false},
 		{ text: 52, correct: true},
-		]
+	]
 }
 ];
 
@@ -56,7 +56,7 @@ function startQuiz() {
 /*
 currentQuestion will store the first element of object array
 questionNUm will store the next element of object array
-questionText on index.html will display the next question within in the object
+questionText on index.html will display the next question within the object
 Iterate over answers using forEach method
 */
 function showQuestion() {
@@ -92,8 +92,8 @@ function resetAnswers() {
 }
 
 /*
-When an swer button is clicked it will display the correct or incorrect answer
-E.target displays the selected element of the button when clicked
+When an amswer button is clicked it will display the correct or incorrect answer
+ams.target displays the selected element of the button when clicked
 Then it will check if the dataset is true
 If correct it will add class name correct, or it will add class name incorrect
 */
@@ -119,7 +119,7 @@ function selectAnswer(ans) {
 
 function showScore() {
 	resetAnswers();
-	questionText.innerHTML = `You scored ${score} out of ${questions.length}`;
+	questionText.innerHTML = `You scored ${score} out of ${questions.length}!`;
 	nextButton.innerHTML = "Play Again";
 	nextButton.style.display = "block";
 }
