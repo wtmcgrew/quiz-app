@@ -26,11 +26,9 @@ body {
 	padding-bottom: 30px;
 }
 
-
 .quiz {
 	padding: 20px 0;
 }
-
 
 .quiz h2 {
 	font-size: 18px;
@@ -59,7 +57,7 @@ body {
 	color: #ffffff;
 }
 
-.btn:disblae {
+.btn:disabled {
 	cursor: no-drop;
 }
 
