@@ -81,3 +81,11 @@ body {
 .incorrect {
 	background-color: #f20505;
 }
+
+@media only screen and (max-width: 768px) {
+	body {
+		display: block;
+		background-color: #3f6ad9;
+		align-items: center;
+		margin: 0;
+	}
