@@ -34,8 +34,6 @@ const questionText = document.getElementById("question");
 const answerButtons = document.getElementById("answer-btns");
 const nextButton = document.getElementById("next-btn");
 
-let rightAnswer = document.getElementById("right-answer");
-
 let currentQuestionIndex = 0;
 let score = 0;
 
