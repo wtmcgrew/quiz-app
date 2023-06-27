@@ -76,13 +76,6 @@ body {
 	display: none;
 }
 
-p {
-	font-weight: 400;
-	padding: 0;
-	margin: 0;
-	text-align: center;
-}
-
 .correct {
 	background-color: #1cb862;
 }
